@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low Poly Pack Oasis - Desert
+* source:	https://sketchfab.com/3d-models/low-poly-pack-oasis-desert-414282d254484b75aa2f1d5cfb82d463
+* author:	Ergoni (https://sketchfab.com/Ergoni)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low Poly Pack Oasis - Desert" (https://sketchfab.com/3d-models/low-poly-pack-oasis-desert-414282d254484b75aa2f1d5cfb82d463) by Ergoni (https://sketchfab.com/Ergoni) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
