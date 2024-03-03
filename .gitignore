@@ -78,3 +78,6 @@ DerivedDataCache/*
 Content/Protos/
 Content/__ExternalActors__/PCG/Protos/
 Content/__ExternalObjects__/PCG/Protos/
+Content/TestingGround/
+Content/__ExternalActors__/TestingGround/
+Content/__ExternalObjects__/TestingGround/
