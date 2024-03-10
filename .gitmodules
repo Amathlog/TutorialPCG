@@ -1,0 +1,3 @@
+[submodule "Plugins/PCG_CustomNodes"]
+	path = Plugins/PCG_CustomNodes
+	url = https://github.com/Amathlog/PCG_CustomNodes.git
