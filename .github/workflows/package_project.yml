@@ -1,5 +1,7 @@
 name: PackageProject
-on: [push]
+on:
+  release:
+    types: [created]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -9,6 +11,10 @@ jobs:
           lfs: 'true'
           submodules: 'recursive'
       - name: Zip Folder
-        run: zip -r PCGTutorial.zip . -x ".git/*" ".github/*" ".git*"
-      - name: Release to Github
-        run: echo "Release"
+        run: zip -r PCGTutorial.zip . -x ".git/*" ".github/*" ".git*" "Plugins/PCG_CustomNodes/.git/*" "Plugins/PCG_CustomNodes/.git*"
+      - name: Upload the artifacts
+        uses: skx/github-action-publish-binaries@release-2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          args: 'PCGTutorial.zip'
