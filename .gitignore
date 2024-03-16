@@ -85,3 +85,4 @@ Content/*.uasset
 .vscode/
 .ignore
 PCGTutoGit.code-workspace
+GenerateProjects.sh
