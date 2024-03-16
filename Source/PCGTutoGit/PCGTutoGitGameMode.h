@@ -4,15 +4,15 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "PCGTutoGit_5_3GameMode.generated.h"
+#include "PCGTutoGitGameMode.generated.h"
 
 UCLASS(minimalapi)
-class APCGTutoGit_5_3GameMode : public AGameModeBase
+class APCGTutoGitGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 
 public:
-	APCGTutoGit_5_3GameMode();
+	APCGTutoGitGameMode();
 };
 
 

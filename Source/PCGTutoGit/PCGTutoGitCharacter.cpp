@@ -1,6 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "PCGTutoGit_5_3Character.h"
+#include "PCGTutoGitCharacter.h"
 #include "Engine/LocalPlayer.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -14,9 +14,9 @@
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
 //////////////////////////////////////////////////////////////////////////
-// APCGTutoGit_5_3Character
+// APCGTutoGitCharacter
 
-APCGTutoGit_5_3Character::APCGTutoGit_5_3Character()
+APCGTutoGitCharacter::APCGTutoGitCharacter()
 {
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
@@ -54,7 +54,7 @@ APCGTutoGit_5_3Character::APCGTutoGit_5_3Character()
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 }
 
-void APCGTutoGit_5_3Character::BeginPlay()
+void APCGTutoGitCharacter::BeginPlay()
 {
 	// Call the base class  
 	Super::BeginPlay();
@@ -72,7 +72,7 @@ void APCGTutoGit_5_3Character::BeginPlay()
 //////////////////////////////////////////////////////////////////////////
 // Input
 
-void APCGTutoGit_5_3Character::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+void APCGTutoGitCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	// Set up action bindings
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent)) {
@@ -82,10 +82,10 @@ void APCGTutoGit_5_3Character::SetupPlayerInputComponent(UInputComponent* Player
 		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &ACharacter::StopJumping);
 
 		// Moving
-		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &APCGTutoGit_5_3Character::Move);
+		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &APCGTutoGitCharacter::Move);
 
 		// Looking
-		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &APCGTutoGit_5_3Character::Look);
+		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &APCGTutoGitCharacter::Look);
 	}
 	else
 	{
@@ -93,7 +93,7 @@ void APCGTutoGit_5_3Character::SetupPlayerInputComponent(UInputComponent* Player
 	}
 }
 
-void APCGTutoGit_5_3Character::Move(const FInputActionValue& Value)
+void APCGTutoGitCharacter::Move(const FInputActionValue& Value)
 {
 	// input is a Vector2D
 	FVector2D MovementVector = Value.Get<FVector2D>();
@@ -116,7 +116,7 @@ void APCGTutoGit_5_3Character::Move(const FInputActionValue& Value)
 	}
 }
 
-void APCGTutoGit_5_3Character::Look(const FInputActionValue& Value)
+void APCGTutoGitCharacter::Look(const FInputActionValue& Value)
 {
 	// input is a Vector2D
 	FVector2D LookAxisVector = Value.Get<FVector2D>();

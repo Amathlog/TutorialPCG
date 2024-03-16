@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
-#include "PCGTutoGit_5_3Character.generated.h"
+#include "PCGTutoGitCharacter.generated.h"
 
 class USpringArmComponent;
 class UCameraComponent;
@@ -16,7 +16,7 @@ struct FInputActionValue;
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
 
 UCLASS(config=Game)
-class APCGTutoGit_5_3Character : public ACharacter
+class APCGTutoGitCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
@@ -45,7 +45,7 @@ class APCGTutoGit_5_3Character : public ACharacter
 	UInputAction* LookAction;
 
 public:
-	APCGTutoGit_5_3Character();
+	APCGTutoGitCharacter();
 	
 
 protected:

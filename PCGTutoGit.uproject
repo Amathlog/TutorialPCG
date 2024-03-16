@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "PCGTutoGit_5_3",
+			"Name": "PCGTutoGit",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
@@ -28,6 +28,14 @@
 		},
 		{
 			"Name": "PCGExternalDataInterop",
+			"Enabled": true
+		},
+		{
+			"Name": "PCG_CustomNodes",
+			"Enabled": true
+		},
+		{
+			"Name": "Text3D",
 			"Enabled": true
 		}
 	]
