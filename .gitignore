@@ -75,9 +75,14 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 # Prototypes
-Content/Protos/
-Content/__ExternalActors__/PCG/Protos/
-Content/__ExternalObjects__/PCG/Protos/
-Content/TestingGround/
-Content/__ExternalActors__/TestingGround/
-Content/__ExternalObjects__/TestingGround/
+Content/**/Protos/
+Content/**/TestingGround/
+Content/**/ThirdPerson/Maps
+Content/Developers/
+Content/*.uasset
+
+# vscode
+.vscode/
+.ignore
+PCGTutoGit.code-workspace
+GenerateProjects.sh
