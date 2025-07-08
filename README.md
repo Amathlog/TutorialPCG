@@ -1,5 +1,5 @@
 # Tutorial PCG
-Repository for PCG Tutorial in Unreal 5.4
+Repository for PCG Tutorial in Unreal 5.6
 
 ## Installation
 
@@ -10,18 +10,16 @@ Repository for PCG Tutorial in Unreal 5.4
   You can follow the [official doc](https://docs.unrealengine.com/latest/en-US/opening-an-existing-unreal-engine-project/)
 
 ### Using git
-This repo use git lfs and submodules, so you need extra steps for that.
+This repo use git lfs, so you need extra steps for that.
 ```
 git clone https://github.com/Amathlog/TutorialPCG.git TutorialPCG
 cd TutorialPCG
-git submodule update --init --recursive
 git lfs pull
 ```
 
 You can update the repo using
 ```
 git pull
-git submodule update --recursive
 git lfs pull
 ```
 
