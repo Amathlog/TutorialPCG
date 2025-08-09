@@ -90,3 +90,6 @@ Content/**/Video/
 .ignore
 PCGTutoGit.code-workspace
 GenerateProjects.sh
+
+# Megascans
+Content/EuropeanBeech/
