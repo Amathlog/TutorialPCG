@@ -91,5 +91,8 @@ Content/**/Video/
 PCGTutoGit.code-workspace
 GenerateProjects.sh
 
-# Megascans
+# Local Content
 Content/EuropeanBeech/
+Content/Fab/
+Content/StylizedProvencal/
+Content/StarterContent/
