@@ -4,7 +4,7 @@ Repository for PCG Tutorial in Unreal 5.6
 ## Installation
 
 ### Using zipped project
-- Download the latest zip at this [address](https://1drv.ms/f/s!AtWdSQYow8-v6Te9EIkr1WTYMfi_?e=VNNNFA)
+- Download the latest zip at this [address](https://1drv.ms/f/c/afcfc32806499dd5/IgDVnUkGKMPPIICvtzQAAAAAAYU9ZW9idf1V8xoASvGXZBQ)
 - Unzip the project
 - Open Unreal and at the project selection, select "Browse" and navigate to the unzipped folder, and select "PCGTutoGit.uproject"
   You can follow the [official doc](https://docs.unrealengine.com/latest/en-US/opening-an-existing-unreal-engine-project/)
